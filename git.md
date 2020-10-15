@@ -11,6 +11,7 @@
 :beginner: **clean the working copy**   
 :beginner: **ignoring files (gitignore)**  
 ​
+
 -------------------------
 ​
 :beginner: **Git Configuration**  
