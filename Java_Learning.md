@@ -12,7 +12,7 @@
 
 <br>
 
-## :beginner: Setting Up VS Code For JAVA
+## :beginner: **Setting Up VS Code For JAVA**
 
 1. Create a New worksapce.
 2. Open the worksapce in VS code.
