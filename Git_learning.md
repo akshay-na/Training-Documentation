@@ -88,11 +88,30 @@
 
 1. Login to the remote repository.
 2. Create a New Repository.
+3. Add a remote repository URL to the local repository.
+   ```sh
+        git remote add origin <Repository_URL>
+   ```
+4. Check the remote repository using the command.
+   ```sh
+        git remote -v
+   ```
+5. Push commits made to local repository to the remote repository using the command
+   ```sh
+        git remote -u origin master
+   ```
 
-
-
-
-
+6. To pull the files from remote repository and add to the local repository directly.
+   ```sh
+        git pull origin master
+   ```
+7. To fetch and check the updated changes and merge with the local repository.
+   ```sh
+        git fetch                       //Fetches the latest updates if any.
+        git diff origin/master          //Gives the differences between the local and remote repo
+        git merge origin/master         //Merges the files fetched from remote repo with the local repo.
+   ```
+8. 
 
 <br>
 
