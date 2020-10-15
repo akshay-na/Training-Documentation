@@ -17,7 +17,12 @@
 1. Create a New worksapce.
 2. Open the worksapce in VS code.
 3. Install the Extension called "Java Extension Pack (Incl 6 Extensions)"
-4. Create a new java source file, named "Sample.java".
+4. Install the AdoptOpenJDK version 11 from
+   ```html
+        https://adoptopenjdk.net/
+   ```
+   OpenJDK 11 (LTS) and Hotspot JVM.
+5. Create a new java source file, named "Sample.java".
    ```java
     public class Sample {
         public static void main(String[] args) {
@@ -25,11 +30,11 @@
         }
     }
     ```
-5. Save the file and compile the source code from the directory.
+6. Save the file and compile the source code from the directory.
     ```cmd
     javac Sample.java
     ```
-6. If any there is any error, Try setting the environment variable
+7. If any there is any error, Try setting the environment variable
     - Got to Windows Search Bar
     - Type environment, open 'Edit System Environment Variable'
     - Go to Environment Variable...
@@ -41,16 +46,16 @@
     ```
     - **NOTE:** For 'path variable' add the path along with the other path which already existing paths.
 
-7. Restart the VS code and open a new terminal
-8. Run from the Command Prompt
+8. Restart the VS code and open a new terminal
+9.  Run from the Command Prompt
     ```cmd
         javac Sample.java
     ```
-9. A .class file will be generated in the directory, then Run
+10. A .class file will be generated in the directory, then Run
     ```cmd
         java Sample
     ```
-10. After running the above command one can see the output on the terminal.
+11. After running the above command one can see the output on the terminal.
 
 
 
