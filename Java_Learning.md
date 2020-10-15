@@ -52,6 +52,7 @@
     ```
 10. After running the above command one can see the output on the terminal.
 
+
 <br>
 
 --------------
