@@ -17,11 +17,11 @@
 1. Create a New worksapce.
 2. Open the worksapce in VS code.
 3. Install the Extension called "Java Extension Pack (Incl 6 Extensions)"
-4. Install the AdoptOpenJDK version 11 from
+4. Download and Install the latest version of AdoptOpenJDK and HotSpot JVM from
    ```html
         https://adoptopenjdk.net/
    ```
-   OpenJDK 11 (LTS) and Hotspot JVM.
+
 5. Create a new java source file, named "Sample.java".
    ```java
     public class Sample {
