@@ -111,7 +111,7 @@
         git diff origin/master          //Gives the differences between the local and remote repo
         git merge origin/master         //Merges the files fetched from remote repo with the local repo.
    ```
-8. 
+8.
 
 <br>
 
