@@ -3,7 +3,7 @@
 
 #### :beginner: Git Configuration
 #### :beginner: Creating a New Repository
-#### :beginner:
+#### :beginner: Working With The Remote Repository
 #### :beginner:
 #### :beginner:
 #### :beginner:
@@ -39,7 +39,7 @@
 
 <br>
 
-## :beginner: Creating a New Repository
+## :beginner: Creating a New Local Repository
 
 <br>
 
@@ -61,24 +61,38 @@
    ```
 5. To check the recent commits use the command
     ```sh
-        git log
+         git log
     ```
-6. To check the diffrence between commits. Replace `n` with a number to get diffrence from last `n` commits.
+6. To check the differences between commits. Replace `n` with a number to get diffrence from last `n` commits.
    ```sh
         git diff HEAD~n
    ```
-7. Commit the stagged file to local repository
+7. Commit the staged file to local repository
    ```sh
         git commit -m "Commit_Message"
    ```
-8.
+8. Removing files from staging area and local repository permanently.
+   ```sh
+        git reset --hard
+   ```
 
+<br>
 
 -------------
 
 <br>
 
-## :beginner:
+## :beginner: **Working With The Remote Repository**
+
+<br>
+
+1. Login to the remote repository.
+2. Create a New Repository.
+
+
+
+
+
 
 <br>
 
