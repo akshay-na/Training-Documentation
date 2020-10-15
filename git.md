@@ -1,21 +1,21 @@
-:beginner: **Git Configuration**  
-:label: ***setting up***  
-:beginner: **Git Repository**  
-:label: ***create local repo, add file, commit, view log***  
-:label: ***update & commit working area, staged, local repo***  
-:label: ***git diff***  
-:label: ***adding updated files or all files***  
-:label: ***delete & move***  
-:label: ***undoing changes in working copy***  
-:label: ***undoing changes in repository***  
-:beginner: **clean the working copy**   
-:beginner: **ignoring files (gitignore)**  
+:beginner: **Git Configuration**
+:label: ***setting up***
+:beginner: **Git Repository**
+:label: ***create local repo, add file, commit, view log***
+:label: ***update & commit working area, staged, local repo***
+:label: ***git diff***
+:label: ***adding updated files or all files***
+:label: ***delete & move***
+:label: ***undoing changes in working copy***
+:label: ***undoing changes in repository***
+:beginner: **clean the working copy**
+:beginner: **ignoring files (gitignore)**
 ​
 
 -------------------------
 ​
-:beginner: **Git Configuration**  
-:label: ***setting up***  
+:beginner: **Git Configuration**
+:label: ***setting up***
 ```sh
 Enzo@DESKTOP-IFP1VO4 MINGW64 ~/Desktop
 $ pwd
@@ -64,7 +64,7 @@ Enzo@DESKTOP-IFP1VO4 MINGW64 ~
 $ ls .gitconfig
 ls: cannot access '.gitconfig': No such file or directory
 ```
-:label: ***configure git***  
+:label: ***configure git***
 ```sh
 Enzo@DESKTOP-IFP1VO4 MINGW64 ~
 $ touch .gitconfig
@@ -110,9 +110,9 @@ $ cat ~/.gitconfig
         editor = code --wait
 ​
 ```
-:beginner: **Git Repository**  
+:beginner: **Git Repository**
 ​
-:label: ***create local repo, add file, commit, view log***  
+:label: ***create local repo, add file, commit, view log***
 ```sh
 Enzo@DESKTOP-IFP1VO4 MINGW64 ~
 $ cd ~/desktop/d1a-git
@@ -165,7 +165,7 @@ Date:   Mon Oct 12 11:33:23 2020 +0530
 ​
     add mf1.txt
 ```
-:label: ***update & commit working area, staged, local repo***  
+:label: ***update & commit working area, staged, local repo***
 ​
 ```sh
 Enzo@DESKTOP-IFP1VO4 MINGW64 ~/desktop/d1a-git (master)
@@ -216,7 +216,7 @@ Author: Crafted Code User <crafted.coded@gmail.com>
 Date:   Mon Oct 12 11:33:23 2020 +0530
 ​
     add mf1.txt
-:label: ***git diff***  
+:label: ***git diff***
 ```sh
 Enzo@DESKTOP-IFP1VO4 MINGW64 ~/desktop/d1a-git (master)
 $ git log
@@ -261,7 +261,7 @@ Use 'git <command> -- <path>...' to specify paths that do not exist locally.
 ​
 ```
 ​
-:label: ***adding updated files or all files***  
+:label: ***adding updated files or all files***
 ```sh
 Enzo@DESKTOP-IFP1VO4 MINGW64 ~/desktop/d1a-git (master)
 $ touch mf2.txt mf3.txt
@@ -381,10 +381,10 @@ Use '--' to separate paths from revisions, like this:
 'git <command> [<revision>...] -- [<file>...]'
 ​
 ```
-:eye: * dash u (-u) option only adds updated files, files that have changed Git knows about. These could be either changes to files or it could also be deletions of files*  
-:eye: *Capital A adds all files including untracked ones.*  
+:eye: * dash u (-u) option only adds updated files, files that have changed Git knows about. These could be either changes to files or it could also be deletions of files*
+:eye: *Capital A adds all files including untracked ones.*
 ​
-:label: ***delete & move***  
+:label: ***delete & move***
 ```sh
 $ ls
 mf1.txt  mf2.txt  mf3.txt
