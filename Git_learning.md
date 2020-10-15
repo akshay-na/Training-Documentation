@@ -39,7 +39,7 @@
 
 <br>
 
-## :beginner: Creating a New Local Repository
+## :beginner: Creating a New Local Repositsory
 
 <br>
 

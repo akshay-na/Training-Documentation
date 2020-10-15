@@ -1,13 +1,9 @@
 # **Context**
-### :beginner: Working With JOINS
-### :beginner: Normalization
-### :beginner: Constraints
-### :beginner: Sub-Query
-### :beginner:
-
-
-s
-<br>
+-------------
+#### :beginner: Working With JOINS
+#### :beginner: Normalization
+#### :beginner: Constraints
+#### :beginner: Sub-Query
 
 ---------------------
 
@@ -271,3 +267,7 @@ subquery that uses the data from the outer query. In other
 words, a correlated subquery depends on the outer query. A
 correlated subquery is evaluated once for each row in the
 outer query.
+
+<br>
+
+----------------------
