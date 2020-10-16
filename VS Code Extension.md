@@ -17,6 +17,7 @@
 - Path Intellisense
 - Visual Studio IntelliCode
 - All Auto Complete
+- autoend
 
 -------------
 

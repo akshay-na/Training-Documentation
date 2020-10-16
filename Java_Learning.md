@@ -2,9 +2,9 @@
 ------------
 
 #### :beginner: Setting Up VS Code For JAVA
-#### :beginner:
-#### :beginner:
-#### :beginner:
+#### :beginner: Data Types
+#### :beginner: Loops
+#### :beginner: If Else
 #### :beginner:
 #### :beginner:
 
@@ -65,25 +65,160 @@
 
 <br>
 
-## :beginner:
+## :beginner: **Data Types**
 
 <br>
+
+```java
+    class DataTypes{
+     public static void main(String args[]){
+        byte byteVar = 127;
+        short shortVar = 32767;
+        int intVar = 2147483647;
+        long longVar = 60;
+        float floatVar = 20;
+        double doubleVar = 20.123;
+        boolean booleanVar = false;
+        char charVar ='W';
+
+        char testChar = "hello".charAt(1);
+        System.out.println(testChar);
+
+        String myString = "hello";
+        char testChar1 = myString.charAt(1);
+        System.out.println(testChar1);
+
+        String myString1 = new String("hello");
+        char testChar2 = myString1.charAt(1);
+        System.out.println(testChar2);
+
+        System.out.println(byteVar + byteVar);
+        System.out.println("Value Of byte Variable is " + byteVar);
+        System.out.println("Value Of short Variable is " + shortVar);
+        System.out.println("Value Of int Variable is " + intVar);
+        System.out.println("Value Of long Variable is " + longVar);
+        System.out.println("Value Of float Variable is " + floatVar);
+        System.out.println("Value Of double Variable is " + doubleVar);
+        System.out.println("Value Of boolean Variable is " + booleanVar);
+        System.out.println("Value Of char Variable is " + charVar);
+     }
+ }
+
+```
 
 --------------
 
 <br>
 
-## :beginner:
+## :beginner: **Loops**
 
 <br>
+
+```java
+
+public class Loops {
+	public static void main(String[] args) {
+		Loops loops = new Loops();
+		// loops.forloop();
+		//loops.whileloop();
+		//loops.dowhile();
+		//loops.breakmethod();
+		loops.continuedemo();
+	}
+
+	public void forloop() {
+		for (int i = 1; i < 10; i = i + 2) {
+			System.out.println(i);
+		}
+	}
+
+	public void whileloop() {
+		int i = 1;
+		while (i < 10) {
+			System.out.println(i);
+			i = i + 2;
+		}
+	}
+
+	public void dowhile() {
+		int i = 100;
+		do {
+			System.out.println(i);
+			i= i+2;
+		} while (i<10);
+	}
+
+	public void breakmethod() {
+		for (int i = 1; ; i = i + 2) {
+			System.out.println(i);
+			if(i == 11) {
+				break;
+			}
+			//System.out.println(i);
+		}
+	}
+
+	public void continuedemo() {
+		for (int i = 1; i<11 ; i = i + 2) {
+			if(i == 5) {
+				continue;
+			}
+			System.out.println(i);
+
+		}
+	}
+}
+
+```
 
 --------------
 
 <br>
 
-## :beginner:
+## :beginner: **If Else**
 
 <br>
+
+```java
+
+public class If_Else_ElseIf {
+	public static void main(String[] args) {
+		char alphabet = 'd';
+//
+//		if (alphabet == 'a') {
+//			System.out.println('A');
+//		}
+//		if (alphabet == 'b') {
+//			System.out.println('B');
+//		}
+//		if (alphabet == 'c') {
+//			System.out.println('C');
+//		}
+//
+//		if (alphabet != 'a' && alphabet != 'b' && alphabet != 'c') {
+//			System.out.println("Not valid");
+//		}
+
+
+		if (alphabet == 'a') {
+			System.out.println('A');
+		}
+		else if (alphabet == 'b') {
+			System.out.println('B');
+		}
+		else  if (alphabet == 'c') {
+			System.out.println('C');
+		}
+
+		else{
+			System.out.println("Not valid");
+		}
+
+
+	}
+}
+
+```
 
 --------------
 
