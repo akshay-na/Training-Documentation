@@ -30,5 +30,5 @@ echo ""
 
 # Push the changes into desired branch in remote repsoitory.
 #git push -u origin $BRANCH
-echo -e "${RED}4) Committed to${NC}${GREEN} $BRANCH ${NC}${RED}branch of the Remote Repository on the branch:${NC}"
+echo -e "${RED}4) Committed to${NC}${GREEN} $BRANCH ${NC}${RED}branch of the Remote Repository.${NC}"
 echo ""
