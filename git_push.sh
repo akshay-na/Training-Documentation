@@ -26,6 +26,6 @@ echo -e "${RED}3) Pushing to Remote Repository (URL):${NC}${GREEN} $REPO ${NC}"
 echo ""
 
 # Push the changes into remote repsoitory.
-#git push -u origin master
+git push -u origin master
 echo -e "${RED}4) Committed to Remote Repository.${NC}"
 echo ""
