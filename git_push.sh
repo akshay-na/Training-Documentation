@@ -17,9 +17,9 @@ git commit -m "`date`"
 echo -e "${RED}Committed to Local Repo.${NC}"
 echo ""
 
-git remote add origin $REPO
+git remote add origin $REPO >  nul
 
-echo -e "${RED}Pushing to Remote Repo${NC}${GREEN} $REPO ${NC}"
+echo -e "${RED}Pushing to Remote Repo:${NC}${GREEN} $REPO ${NC}"
 echo ""
 #git push -u origin master
 
