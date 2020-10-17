@@ -14,12 +14,12 @@ echo ""
 
 git commit -m "`date`"
 
-echo -e "${RED}2) Committed to Local Repo.${NC}"
+echo -e "${RED}2) Committed to Local Repository.${NC}"
 echo ""
 
 git remote add origin $REPO 2> /dev/null
 
-echo -e "${RED}3) Pushing to Remote Repo:${NC}${GREEN} $REPO ${NC}"
+echo -e "${RED}3) Pushing to Remote Repository:${NC}${GREEN} $REPO ${NC}"
 echo ""
 #git push -u origin master
 
