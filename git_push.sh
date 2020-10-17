@@ -1,26 +1,31 @@
 #! /bin/sh
 
-# Remote Repository Link
+# Replace the link with desired repository link.
 REPO='https://github.com/akshay-na/Training-Documentation'
 
-# Colours
+# Colour Variable
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
+# Stages all the files.
 git add .
 echo -e "${RED}1) Staging Completed.${NC}"
 echo ""
 
+# Commits all the files to the local repsoitory.
+# Adds current date and time as commit message.
 git commit -m "`date`"
-
 echo -e "${RED}2) Committed to Local Repository.${NC}"
 echo ""
 
+# Adds the Remote Repository Link if not added.
+# If the link already exists, the error will be pushed to nul.
 git remote add origin $REPO 2> /dev/null
-
 echo -e "${RED}3) Pushing to Remote Repository:${NC}${GREEN} $REPO ${NC}"
 echo ""
-#git push -u origin master
 
-echo -e "${RED}4) Committed to Remote Repo.${NC}"
+# Push the changes into remote repsoitory.
+#git push -u origin master
+echo -e "${RED}4) Committed to Remote Repository.${NC}"
+echo ""
