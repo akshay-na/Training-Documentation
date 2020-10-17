@@ -5,7 +5,7 @@
 #### :beginner: Data Types
 #### :beginner: Loops
 #### :beginner: If Else
-#### :beginner:
+#### :beginner: Exception Handling
 #### :beginner:
 
 --------------
@@ -224,9 +224,57 @@ public class If_Else_ElseIf {
 
 <br>
 
-## :beginner:
+## :beginner: **Exception**
 
 <br>
+
+Unhandled Exception
+
+```java
+public class Unhandled_Exceptopn {
+    public static void main(String args[]){
+
+        int i =100;
+        int result = 0;
+        System.out.println("Divide by 0");
+
+
+        result = i/0;
+
+        System.out.println("Unhandled Exception");
+
+
+    }
+}
+
+```
+
+Handled Exception
+```java
+public class Handled_Exception {
+    public static void main(String args[]) {
+
+        int i = 100;
+        int result = 0;
+        System.out.println("Divide by 0");
+
+        try {
+            result = i / 0;
+        }
+
+        catch (Exception exception) {
+            System.out.println("Excep :");
+            System.out.println(exception.getMessage());
+            System.out.println("Exception handled");
+        }
+
+        System.out.println(result);
+
+    }
+}
+
+
+```
 
 --------------
 
