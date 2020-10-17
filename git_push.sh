@@ -1,7 +1,9 @@
 #! /bin/sh
 
-# Replace the link with desired repository link.
+# Specify the remote repository URL here.
 REPO='https://github.com/akshay-na/Training-Documentation'
+
+# Specify the branch here.
 BRANCH='master'
 
 # Colour Variable
@@ -26,7 +28,7 @@ git remote add origin $REPO 2> /dev/null
 echo -e "${RED}3) Pushing to Remote Repository (URL):${NC}${GREEN} $REPO ${NC}"
 echo ""
 
-# Push the changes into remote repsoitory.
+# Push the changes into desired branch in remote repsoitory.
 #git push -u origin $BRANCH
-echo -e "${RED}4) Committed to Remote Repository on the branch:${NC}${GREEN} $BRANCH ${NC}"
+echo -e "${RED}4) Committed to${NC}${GREEN} $BRANCH ${NC}${RED}branch of the Remote Repository on the branch:${NC}"
 echo ""
