@@ -2,12 +2,12 @@
 
 git add .
 
-echo "Staging Completed."
+echo "Staging Completed." \n
 
 git commit -m "`date`"
 
-echo "Committed to Local Repo."
+echo "Committed to Local Repo." \n
 
-git push -u origin master
+#git push -u origin master
 
-echo "Pushed to Remote Repo."
+echo "Pushed to Remote Repo." \n
