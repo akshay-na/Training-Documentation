@@ -1,14 +1,15 @@
 #! /bin/sh
 
-git add .
+RED='\033[0;31m'
 
-echo "Staging Completed."
+git add .
+echo "${RED}Staging Completed."
 echo ""
 
 git commit -m "`date`"
 
-echo "Committed to Local Repo."
+echo "${RED}Committed to Local Repo."
 echo ""
 #git push -u origin master
 
-echo "Pushed to Remote Repo."
+echo "${RED}Pushed to Remote Repo."
