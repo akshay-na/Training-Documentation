@@ -1,6 +1,6 @@
 #! /bin/sh
 
-RED='\033[0;31m'
+RED='0;31'
 
 git add .
 echo "${RED}Staging Completed."
