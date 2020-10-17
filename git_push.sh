@@ -32,3 +32,4 @@ echo ""
 git push -u origin $BRANCH
 echo -e "${RED}4) Committed to${NC}${GREEN} $BRANCH ${NC}${RED}branch of the Remote Repository.${NC}"
 echo ""
+
