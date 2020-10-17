@@ -2,6 +2,7 @@
 
 # Replace the link with desired repository link.
 REPO='https://github.com/akshay-na/Training-Documentation'
+BRANCH='master'
 
 # Colour Variable
 RED='\033[0;31m'
@@ -26,6 +27,6 @@ echo -e "${RED}3) Pushing to Remote Repository (URL):${NC}${GREEN} $REPO ${NC}"
 echo ""
 
 # Push the changes into remote repsoitory.
-git push -u origin master
-echo -e "${RED}4) Committed to Remote Repository.${NC}"
+#git push -u origin $BRANCH
+echo -e "${RED}4) Committed to Remote Repository on the branch.${NC}${GREEN} $BRANCH ${NC}"
 echo ""
