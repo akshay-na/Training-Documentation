@@ -23,4 +23,4 @@ echo -e "${RED}3) Pushing to Remote Repo:${NC}${GREEN} $REPO ${NC}"
 echo ""
 #git push -u origin master
 
-echo -e "${RED}4) Pushed to Remote Repo.${NC}"
+echo -e "${RED}4) Committed to Remote Repo.${NC}"
