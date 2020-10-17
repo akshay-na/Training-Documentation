@@ -22,7 +22,7 @@ echo ""
 # Adds the Remote Repository Link if not added.
 # If the link already exists, the error will be pushed to nul.
 git remote add origin $REPO 2> /dev/null
-echo -e "${RED}3) Pushing to Remote Repository:${NC}${GREEN} $REPO ${NC}"
+echo -e "${RED}3) Pushing to Remote Repository (URL):${NC}${GREEN} $REPO ${NC}"
 echo ""
 
 # Push the changes into remote repsoitory.
