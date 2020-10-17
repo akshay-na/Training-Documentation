@@ -19,7 +19,7 @@ echo ""
 
 git remote add origin $REPO
 
-echo -e "${RED}Pushing to Remote Repo ${NC} ${GREEN} $REPO ${NC}"
+echo -e "${RED}Pushing to Remote Repo${NC}${GREEN} $REPO ${NC}"
 echo ""
 #git push -u origin master
 
